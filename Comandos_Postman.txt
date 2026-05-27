@@ -1,0 +1,65 @@
+------------POST-----------
+http://127.0.0.1:5000/Jogos
+---------------------------
+
+Body - raw - JSON
+
+{
+  "titulo": "The Sims 4",
+  "genero": "Simulação",
+  "desenvolvedor": "Maxis",
+  "plataforma": "PC"
+}
+
+{
+  "titulo": "Just Dance 2014",
+  "genero": "Música/Dança",
+  "desenvolvedor": "Ubisoft",
+  "plataforma": "Xbox/PS3/Wii"
+}
+
+{
+  "titulo": "Minecraft",
+  "genero": "Sandbox",
+  "desenvolvedor": "Mojang",
+  "plataforma": "PC"
+}
+
+{
+  "titulo": "Roblox",
+  "genero": "Sandbox/Online",
+  "desenvolvedor": "Roblox Corporation",
+  "plataforma": "PC"
+}
+
+{
+  "titulo": "God of War Ragnarok",
+  "genero": "Ação/Aventura",
+  "desenvolvedor": "Santa Monica Studio",
+  "plataforma": "PS5"
+}
+
+
+------------GET------------
+http://127.0.0.1:5000/Jogos
+http://127.0.0.1:5000/Jogos/1
+---------------------------
+
+
+------------PUT------------
+http://127.0.0.1:5000/Jogos/3
+---------------------------
+
+Body - raw - JSON
+
+{
+  "titulo": "Minecraft",
+  "genero": "Sandbox/Construção",
+  "desenvolvedor": "Mojang Studios",
+  "plataforma": "PC/Xbox/PS4"
+}
+
+
+------------DELETE------------
+http://127.0.0.1:5000/Jogos/5
+---------------------------
